@@ -5,7 +5,7 @@ import memoize from "memoize-one";
 import { getStyles } from "./styles";
 import { upload } from "./helpers/upload";
 import { useDropzone } from "react-dropzone";
-//import MessageBubble from "@cognigy/webchat/src/webchat-ui/components/presentational/MessageBubble";
+import MessageBubble from "./../../webchat-ui/components/presentational/MessageBubble";
 
 // only re-calculate if theme changed
 const getStylesMemo = memoize(getStyles);
